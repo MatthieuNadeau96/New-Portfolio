@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-.front-page {
+#front-page {
   display: grid;
   grid-template-columns: auto 80%;
   height: 650px;
@@ -15,13 +15,13 @@ body {
 
 .home-left{
   background: #060605;
-  height: 100%;
   text-align: right;
-  padding: 10px 40px;
+  height: 100%;
 }
 
 h2 {
   color: white;
+  padding: 10px 40px;
 }
 
 .home-right{
@@ -55,4 +55,26 @@ ul li:hover {
   border-radius: 1px;
   background: #060605;
   transition: 300ms;
+}
+
+#work-page {
+  background: #060605;
+  color: white;
+  padding: 50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  min-height: 500px;
+  width: 100%;
+  justify-content: center;
+}
+
+.item {
+  background: lightgrey;
+  padding: 75px 0px;
+  color: black;
 }
